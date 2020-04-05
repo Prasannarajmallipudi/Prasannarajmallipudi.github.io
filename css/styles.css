@@ -1,0 +1,84 @@
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #5e5e5e;
+    font-weight: 300;
+    background-color: #cccccc;
+}
+h4.big {
+	font-family: 'Open Sans', sans-serif;
+	color: #5e5e5e;
+	font-weight: 300;
+	line-height: 1.5;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+	color: #5e5e5e;
+	font-weight: 300;
+	line-height: 1.5;
+	font-size: 120%;
+}
+.programs-title {
+    margin-top: 50px;
+    color: black;
+}
+.title {
+    color: #ff9e05;
+    margin-bottom: 50px;
+    text-align: center;
+}
+hr {
+    display: block;
+    border-top: 1px solid #aaaaaa;
+    border-bottom: 1px solid #ffffff;
+}
+.button-style {
+	font-family: 'Open Sans', sans-serif;
+	color: #5e5e5e;
+	font-weight: 300;
+}
+.title-super {
+    font-size: 60px;
+}
+.title-logo {
+	max-width: 100px;
+	max-height: 100px;
+    margin: 20px;
+}
+
+.mouse-hover {
+	cursor: pointer;
+}
+.pull-right {
+	float: right;
+}
+footer {
+	margin-top: 50px;
+	font-size: 1.2em;
+	font-weight: 400;
+	text-align: center;
+}
+iframe {
+    border: 0;
+}
+.modal-title,.title-super {
+	color: #ff9e05;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.btn {
+	border: none;
+	background-color: none;
+	border-radius: 3px;
+	box-shadow: 0px 0px 3px #CCC;
+}
+
+.btn-default {
+	text-decoration: none;
+	color: #FFF;
+	box-shadow: 0px 0px 300px #CCC;
+}

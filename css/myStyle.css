@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: coral;
+    padding: 20px;
+    font-family: 'Arvo', serif;
+}
+
+.text-white {
+  color: #FFF;
+}
+
+.font-arvo {
+  font-family: 'Arvo', serif;
+}
+
+.border-radius-3 {
+  border-radius: 8px;
+  padding: 3px;
+}
+
+.ma {
+  margin: 0 auto;
+}
+
+.line-1 {
+  line-height: 1.9;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 30px;
+    /* word-break: break-all; */
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+.column-2 {
+    float: left;
+    width: 63%;
+}
+
+.column-3 {
+    float: left;
+    width: 81%;
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+.content-2 {
+    background-color: white;
+    padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+
+    .column-2 {
+        float: left;
+        width: 100%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+
+    .column-2 {
+        float: left;
+        width: 100%;
+    }
+}
+
+.img-circle {
+  border-radius: 20%;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.show-inline {
+  display: inline;
+}
+
+.social-media {
+  color: black;
+}
+
+.social-media-2x {
+  font-size: 26px;
+}
+
+.bg-coral {
+  background-color: coral;
+}
+
+.bg-img-pro {
+  background-image: url("IMAGES/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.zoom {
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(2.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
